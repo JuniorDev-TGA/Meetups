@@ -32,11 +32,11 @@ class BookInfo {
     this.book.author = "Walt Disney";
   }
 
-  getTitle(book: any): string {
-    return book.title;
+  getTitle(): string {
+    return this.book.title;
   }
-  getAuthor(book: any): string {
-    return book.author;
+  getAuthor(): string {
+    return this.book.author;
   }
 }
 
